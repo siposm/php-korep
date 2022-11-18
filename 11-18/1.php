@@ -11,6 +11,9 @@
         "031198" => ["nev" => "Debreceni Fazekas Mihály Gimnázium", "kozep" => 80, "emelt" => 23],
         "029261" => ["nev" => "Miskolci Herman Ottó Gimnázium", "kozep" => 73, "emelt" => 28]
     ];
+    // echo "<pre>";
+    // print_r($iskolak);
+    // echo "</pre>";
 ?>
 <!DOCTYPE html>
 <html lang="hu">
@@ -33,12 +36,33 @@
             <th>Összesen</th>
         </tr>
 
-        <tr>
-            <td colspan="2" style="text-align: right"><b>Összesen:</b></td>
-            <td> ??? </td>
-            <td> ??? </td>
-            <td> ??? </td>
-        </tr>
+        <?php
+
+            $kozepOsszes = 0;
+            $emeltOsszes = 0;
+            $osszesOsszes = 0;
+
+            foreach ($iskolak as $iskolaAzonosito => $iskola) {
+                
+                $osszes = $iskola["kozep"] + $iskola["emelt"];
+                $kozepOsszes += $iskola["kozep"];
+                $emeltOsszes += $iskola["emelt"];
+                $osszesOsszes += $osszes;
+                
+                echo '<tr>
+                    <td> '. $iskolaAzonosito .' </td>
+                    <td> '. $iskola["nev"] .' </td>
+                    <td> '. $iskola["kozep"] .' </td>
+                    <td> '. $iskola["emelt"] .' </td>
+                    <td> '. $osszes .' </td>
+                </tr>';
+            }
+
+            echo '<td colspan="2" style="text-align: right"><b>Összesen:</b></td>';
+            echo '<td>'. $kozepOsszes .'</td>';
+            echo '<td>'. $emeltOsszes .'</td>';
+            echo '<td>'. $osszesOsszes .'</td>';
+        ?>
     </table>
 </body>
 </html>
