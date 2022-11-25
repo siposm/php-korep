@@ -1,0 +1,98 @@
+[
+    {
+    "NeptunCode": "AAA111",
+    "Name": "Jimmy",
+    "EnrollmentYear": 1996,
+    "IsActive": false
+    },
+    {
+    "NeptunCode": "BBB222",
+    "Name": "John",
+    "EnrollmentYear": 1992,
+    "IsActive": false
+    },
+    {
+    "NeptunCode": "CCC333",
+    "Name": "James",
+    "EnrollmentYear": 2001,
+    "IsActive": true
+    },
+    {
+    "NeptunCode": "DDD444",
+    "Name": "Jonathan",
+    "EnrollmentYear": 1992,
+    "IsActive": true
+    },
+    {
+    "NeptunCode": "EEE555",
+    "Name": "Joe",
+    "EnrollmentYear": 1988,
+    "IsActive": true
+    },
+    {
+    "NeptunCode": "FFF111",
+    "Name": "Robert",
+    "EnrollmentYear": 1987,
+    "IsActive": true
+    },
+    {
+    "NeptunCode": "FFF222",
+    "Name": "Smith",
+    "EnrollmentYear": 1988,
+    "IsActive": true
+    },
+    {
+    "NeptunCode": "FFF333",
+    "Name": "Brad",
+    "EnrollmentYear": 1989,
+    "IsActive": true
+    },
+    {
+    "NeptunCode": "ASD123",
+    "Name": "Mike",
+    "EnrollmentYear": 1998,
+    "IsActive": true
+    },
+    {
+    "NeptunCode": "BBF334",
+    "Name": "Steve",
+    "EnrollmentYear": 1990,
+    "IsActive": true
+    },
+    {
+    "NeptunCode": "PDS456",
+    "Name": "Stewie",
+    "EnrollmentYear": 1988,
+    "IsActive": true
+    },
+    {
+    "NeptunCode": "OLO781",
+    "Name": "Bart",
+    "EnrollmentYear": 1980,
+    "IsActive": true
+    },
+    {
+    "NeptunCode": "AXD123",
+    "Name": "Caroline",
+    "EnrollmentYear": 1998,
+    "IsActive": true
+    },
+    {
+    "NeptunCode": "BXF334",
+    "Name": "Sonia",
+    "EnrollmentYear": 1990,
+    "IsActive": true
+    },
+    {
+    "NeptunCode": "PSD456",
+    "Name": "Ernie",
+    "EnrollmentYear": 1988,
+    "IsActive": true
+    },
+    {
+    "NeptunCode": "OLX781",
+    "Name": "Homer",
+    "EnrollmentYear": 1980,
+    "IsActive": true
+    }
+]
